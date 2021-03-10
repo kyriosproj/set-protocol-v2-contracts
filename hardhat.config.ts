@@ -31,8 +31,7 @@ internalTask(TASK_TEST_SETUP_TEST_ENVIRONMENT).setAction(async function setupNat
     changedFiles = replace.sync(options);
     console.log("Fixing gas cost type from number to string...")
     ;
-  }
-  catch (error) {
+  } catch (error) {
     console.error("Error occurred:", error);
   }
 });
@@ -55,6 +54,11 @@ const config: HardhatUserConfig = {
     localhost: {
       url: "http://127.0.0.1:8545",
       timeout: 100000,
+    },
+    rinkeby: {
+      url: "https://rinkeby.infura.io/v3/" + process.env.INFURA_TOKEN,
+      // @ts-ignore
+      accounts: [`0x${process.env.RINKEBY_DEPLOY_PRIVATE_KEY}`],
     },
     kovan: {
       url: "https://kovan.infura.io/v3/" + process.env.INFURA_TOKEN,
