@@ -28,18 +28,11 @@ pip install -r requirements.txt
 
 ------------------------------------------------------------------------------------------------------------------------
 
-<p align="center">
-  <a href="https://circleci.com/gh/SetProtocol/set-protocol-v2-contracts/tree/master">
-    <img src="https://img.shields.io/circleci/project/github/SetProtocol/set-protocol-v2-contracts/master.svg" />
-  </a>
-  <a href='https://coveralls.io/github/SetProtocol/set-protocol-v2-contracts?branch=master'><img src='https://coveralls.io/repos/github/SetProtocol/set-protocol-v2-contracts/badge.svg?branch=master&amp;t=4pzROZ' alt='Coverage Status' /></a>
-</p>
-
-# Set Protocol V2 Contract Repository
+# Tap Protocol V2 Contract Repository
 
 ## Contracts
 
-[Set Protocol](https://setprotocol.com/) is a specification for tokenized asset management strategies on the ethereum
+[Tap Protocol](https://tapprotocol.com/) is a specification for tokenized asset management strategies on the ethereum
 blockchain written in the Solidity programming language. We use [Hardhat](https://hardhat.org/) as a development
 environment for compiling, testing, and deploying our contracts.
 
@@ -80,7 +73,7 @@ OR `yarn test:clean` if contracts have been typings need to be updated
 ## Contributing
 
 We highly encourage participation from the community to help shape the development of Set. If you are interested in
-developing on top of Set Protocol or have any questions, please ping us
+developing on top of Tap Protocol or have any questions, please ping us
 on [Telegram](https://t.me/joinchat/Fx8D6wyprLUlM1jMVnaRdg).
 
 ## Security
@@ -98,7 +91,7 @@ The disclosure of security vulnerabilities helps us ensure the security of our u
 **How to report a security vulnerability?**
 
 If you believe you’ve found a security vulnerability in one of our contracts or platforms, send it to us by
-emailing [security@setprotocol.com](mailto:security@setprotocol.com). Please include the following details with your
+emailing [security@tapprotocol.com](mailto:security@tapprotocol.com). Please include the following details with your
 report:
 
 * A description of the location and potential impact of the vulnerability.
